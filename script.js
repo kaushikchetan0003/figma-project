@@ -5,3 +5,7 @@
   hamburger.addEventListener("click", () => {
     navItems.classList.toggle("active");
   });
+ function toggleIcon() {
+    const icon = document.getElementById("hamburger");
+    icon.textContent = icon.textContent === "☰" ? "✖" : "☰";
+  }
